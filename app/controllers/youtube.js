@@ -1,6 +1,6 @@
 /**
  * Controller for the YouTube list screen
- * 
+ *
  * @class Controllers.youtube
  * @uses Models.youtube
  * @uses core

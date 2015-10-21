@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <!-- 
-    <property name="acs-oauth-secret-production" type="string"></property>
-    <property name="acs-oauth-key-production" type="string"></property>
-    <property name="acs-api-key-production" type="string"></property>
-    <property name="acs-oauth-secret-development" type="string"></property>
-    <property name="acs-oauth-key-development" type="string"></property>
-    <property name="acs-api-key-development" type="string"></property>	
+    <property name="acs-oauth-secret-production" type="string"></property><property name="acs-oauth-key-production" type="string"></property><property name="acs-api-key-production" type="string"></property><property name="acs-oauth-secret-development" type="string"></property><property name="acs-oauth-key-development" type="string"></property><property name="acs-api-key-development" type="string"></property>	
     -->
     <deployment-targets>
         <target device="tizen">false</target>
@@ -16,22 +11,22 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.2.0.GA</sdk-version>
-    <id>com.chariti.mobile</id>
+    <sdk-version>3.5.1.GA</sdk-version>
+    <id>com.boxoutthikers.chariti</id>
     <name>ChariTi</name>
     <version>1.2.1</version>
-    <publisher>Matthew Congrove</publisher>
-    <url>http://chariti.mobi</url>
+    <publisher>InGrowth</publisher>
+    <url>http://</url>
     <description>ChariTi is a framework built to allow charities to quickly and easily create mobile applications.</description>
-    <copyright>2013 by Matthew Congrove</copyright>
+    <copyright>2015 by InGrowth</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>false</analytics>
-    <guid>66774a0a-ba43-45f5-9686-f2de98701f32</guid>
+    <guid>e3ee360d-8f01-4433-9111-32c60fcbca6b</guid>
     <property name="ti.ui.defaultunit">dip</property>
     <ios>
-        <min-ios-ver>4.3</min-ios-ver>
+        <min-ios-ver>7.0</min-ios-ver>
         <plist>
             <dict>
                 <key>UIRequiresPersistentWiFi</key>
@@ -66,7 +61,7 @@
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest>
-            <uses-sdk android:minSdkVersion="10"/>
+            <uses-sdk android:minSdkVersion="14"/>
         </manifest>
     </android>
     <mobileweb>
@@ -78,12 +73,28 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
-        <module platform="commonjs" version="3.2.0">ti.cloud</module>
-        <module platform="iphone">dk.napp.social</module>
+        <module platform="commonjs">ti.cloud</module>
         <module platform="iphone">ti.urbanairship</module>
         <module platform="android">ti.urbanairship</module>
     </modules>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
+    <property name="appc-app-id" type="string">5625d94239f13c677e777fba</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">jJ1pfBMVZz3EsviaYfhhkDdt9nkstnac</property>
+    <property name="acs-oauth-key-development" type="string">WhV2JQa1h64D9zrXNtkppmtZJOBIpyR5</property>
+    <property name="acs-api-key-development" type="string">S1qPfudP22RDBdlZygsi1UniYjpIiqyB</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">kmbkWrUkTPSQoG9raT</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">mymqUeXFPTb6AaOBoR5ECo90zBNl2cwO</property>
+    <property name="acs-oauth-key-production" type="string">k16IjTgfyxYYR8xKk2mwPK63MYrIkcKD</property>
+    <property name="acs-api-key-production" type="string">DPJaUaKPjLkFQeXu3FZX3uhEUTkv0EYi</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">PIBCzyeUQ4w0BIKgxS</property>
+    <property name="appc-org-id" type="string">100011424</property>
+    <property name="appc-creator-user-id" type="string">16621c25-6946-49ce-a765-d15c4bc426ef</property>
 </ti:app>
